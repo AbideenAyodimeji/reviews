@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Roboto:wght@400;500&display=swap'); */
+body {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  background-color: cornflowerblue;
+}
+/* 
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+} */
+
+.container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review {
+  position: relative;
+  height: 500px;
+  width: 700px;
+  background-color: azure;
+}
+
+.button-container {
+  position: absolute;
+  left: 48%;
+  transform: translateY(370px);
+}
+
+.random-btn {
+  position: absolute;
+  left: 45%;
+
+  transform: translateY(400px);
+}
+
+h4 {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  background-color: azure;
+}
+
+p#job {
+  position: absolute;
+  top: 46%;
+  left: 45%;
+  background-color: azure;
+}
+
+p#info {
+  position: absolute;
+  top: 55%;
+  background-color: azure;
+}
+
+.img-container {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 45%;
+  border-radius: 50%;
+}
+
+.underline {
+  /* border: 1px solid green; */
+  height: 5px;
+  width: 120px;
+  background-color: green;
+}
+
+#person-1 {
+  position: absolute;
+  top: 5px;
+  left: -5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
